@@ -5,8 +5,7 @@ const { interface, bytecode } = require('./compile');
 const provider = new HDWalletProvider(
   'REPLACE_WITH_YOUR_MNEMONIC',
   // remember to change this to your own phrase!
-  'https://rinkeby.infura.io/v3/15c1d32581894b88a92d8d9e519e476c'
-  // remember to change this to your own endpoint!
+  'https://rinkeby.infura.io/v3/4fc2550ea53546ccb22c901093cea882'
 );
 const web3 = new Web3(provider);
 
